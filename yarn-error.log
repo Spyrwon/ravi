@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @react-native-async-storage/async-storage
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\jamie\AppData\Local\Android\Sdk;C:\Program Files\Git\cmd;C:\Program Files\Dart\dart-sdk\bin;C:\Program Files\dotnet\;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jamie\AppData\Local\Microsoft\WindowsApps;C:\Users\jamie\AppData\Roaming\Pub\Cache\bin;;C:\intelFPGA_lite\17.0\modelsim_ase\win32aloem;C:\Users\jamie\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jamie\AppData\Roaming\npm;C:\Users\jamie\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\jamie\trialravi\node_modules\@babel\plugin-external-helpers\lib'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-community/masked-view": "0.1.10",
+      "expo": "~39.0.2",
+      "expo-location": "~9.0.0",
+      "expo-permissions": "~9.3.0",
+      "expo-sensors": "~9.1.0",
+      "expo-status-bar": "~1.0.2",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+      "react-native-compass-heading": "^1.0.2",
+      "react-native-device-angles": "^0.1.1",
+      "react-native-gesture-handler": "~1.7.0",
+      "react-native-maps": "0.27.1",
+      "react-native-reanimated": "~1.13.0",
+      "react-native-safe-area-context": "3.1.4",
+      "react-native-screens": "~2.10.1",
+      "react-native-simple-compass": "^1.0.0",
+      "react-native-web": "~0.13.12",
+      "react-navigation": "^4.4.3",
+      "react-navigation-drawer": "^2.6.0",
+      "react-navigation-stack": "^2.10.0"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
